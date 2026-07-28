@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Обо мне</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+<main class="card">
+    <button id="theme-button" class="theme-button" type="button">
+  🌙 Тёмная тема
+    </button>
+    
+  <h1>Привет! Я начинающий frontend-разработчик</h1>
+
+  <p>Изучаю веб-разработку и создаю современные, понятные и адаптивные сайты.
+  Моя цель — развиваться во frontend-разработке, собирать сильное портфолио
+  и работать в международной команде.</p>
+
+  <img src="img/IMG_1229.jpg"  alt="Danil">
+
+<h2>Мои навыки</h2>
+<ul>
+  <li>HTML: структура и семантика страниц</li>
+  <li>CSS: адаптивная вёрстка, Flexbox и стилизация</li>
+  <li>JavaScript: события, DOM и localStorage</li>
+  <li>Git и GitHub: в процессе изучения</li>
+</ul>
+
+<h2>Мои проекты</h2>
+
+<p>
+  <strong>Личный сайт-портфолио</strong><br>
+  Адаптивная страница с тёмной темой, формой обратной связи и сохранением
+  выбранной темы.
+</p>
+
+<p>
+  <strong>To-Do List</strong><br>
+  Приложение для управления задачами: добавление, редактирование, удаление,
+  отметка выполненных и сохранение списка в браузере.
+</p>
+
+<h2>Связаться со мной</h2>
+
+<p>
+  <a
+    href="https://www.youtube.com/@dnzly2517"
+    target="_blank"
+    rel="noopener noreferrer"
+  >
+    Мои соцсети
+  </a>
+</p>
+
+<p>
+  Почта:
+  <a href="mailto:sedarchukdanil@mail.ru">
+    sedarchukdanil@mail.ru
+  </a>
+</p>
+<h2>Напиши мне</h2>
+
+<form id="contact-form" class="contact-form">
+  <label for="name">Имя</label>
+  <input id="name" type="text" name="name" placeholder="Твоё имя" required>
+
+  <label for="email">Почта</label>
+  <input
+    id="email"
+    type="email"
+    name="email"
+    placeholder="example@mail.com"
+    required
+  >
+
+  <label for="message">Сообщение</label>
+  <textarea
+    id="message"
+    name="message"
+    rows="5"
+    placeholder="Напиши сообщение..."
+    required
+  ></textarea>
+
+  <button type="submit">Отправить</button>
+</form>
+<p id="form-message"></p>
+
+  </main>
+  <script src="script.js"></script>
+</body>
+</html>
